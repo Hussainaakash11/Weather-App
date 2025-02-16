@@ -67,4 +67,4 @@ This project is **open-source** and available under the [MIT License](LICENSE).
 
 ---
 
-💙 **Built with Passion by [Your Name](https://github.com/your-username)**  
+💙 **Built with Passion by [Aakash Hussain](https://github.com/Hussainaakash11)**  
