@@ -1,0 +1,117 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fullscreen Background */
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Glassmorphism Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Glow Effect */
+.container:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
+}
+
+/* Temperature */
+.temp {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 1px cyan, 0 0 1px cyan;
+}
+
+/* Time & Location */
+.time_location {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-shadow: 0 0 1px white;
+}
+
+/* Weather Condition */
+.condition {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-shadow: 0 0 1px yellow;
+}
+
+/* Search Bar */
+nav {
+    margin-top: 2rem;
+}
+
+.search_area {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: rgba(253, 2, 2, 0.2);
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    color: rgb(244, 244, 244);
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Focus effect on input */
+.search_area:focus {
+    background: rgba(255, 0, 0, 0.3);
+    box-shadow: 0 0 10px cyan;
+}
+
+/* Search Button */
+nav form button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: cyan;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+nav form button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .temp {
+        font-size: 3.5rem;
+    }
+    .time_location {
+        font-size: 1.2rem;
+    }
+    .condition {
+        font-size: 1.2rem;
+    }
+}
