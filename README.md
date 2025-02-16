@@ -27,7 +27,7 @@ Built with **HTML, CSS (Glassmorphism & Neon UI), and JavaScript**.
 
 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/Hussainaakash11 /Weather-App.git
+git clone https://github.com/Hussainaakash11/Weather-App.git
 cd weather-app
 ```
 
