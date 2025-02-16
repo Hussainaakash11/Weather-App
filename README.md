@@ -20,7 +20,7 @@ Built with **HTML, CSS (Glassmorphism & Neon UI), and JavaScript**.
 ## 📸 Screenshots
 
 ### 🔹 Light Neon Mode
-![Futuristic Weather App Screenshot]([screenshot-light.png](https://github.com/Hussainaakash11/Weather-App/blob/main/Screenshot%202025-02-16%20221459.png?raw=true))
+![Futuristic Weather App Screenshot](https://github.com/Hussainaakash11/Weather-App/blob/main/Screenshot%202025-02-16%20221459.png?raw=true)
 
 
 ## ⚙️ Installation & Usage
